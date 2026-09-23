@@ -39,15 +39,19 @@ android {
       signingConfig = signingConfigs.getByName("debug")
     }
   }
+
   compileOptions {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
   }
+
   buildFeatures {
     compose = true
     buildConfig = true
   }
+
   testOptions { unitTests { isIncludeAndroidResources = true } }
+
   dependenciesInfo {
     includeInApk = false
     includeInBundle = true

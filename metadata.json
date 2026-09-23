@@ -1,0 +1,7 @@
+{
+  "name": "DYZYKS Montager",
+  "description": "Multi-track video editor for gaming content creators with frame-accurate preview, audio mixer, DaVinci Resolve style UI, transitions and effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
